@@ -1,5 +1,6 @@
 .body-bg {
     background-color: cornsilk;
+    margin: 0px;
 }
 
 .intro-table-container {
@@ -9,7 +10,8 @@
 }
 
 .intro-table {
-    width: 45%;
+    width: 50%;
+    border-spacing: 20px;
 }
 
 .intro-heading {
@@ -83,7 +85,7 @@
 
 .footer {
     background-color: rgb(125, 166, 210);
-    color: cornsilk;
+    color: #fff8dc;
     padding: 20px 0;
 }
 
@@ -101,7 +103,8 @@
 }
 
 .footer-table {
-    width: 65%;
+    width: 100%;
+    align: center;
 }
 
 .footer-socials {
@@ -118,9 +121,35 @@
     border-radius: 50%;
 }
 
+.footer-hover-icon {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.footer-gitlab {
+    width: 60px;
+    height: 60px;
+    margin: 0 5px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.footer-icon {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+}
+
 .footer-form {
     width: 640px;
-    height: 400px;
+    height: 860px;
     border: none;
     margin-top: 10px;
 }
@@ -133,6 +162,36 @@
 
 .footer-resume-frame {
     width: 640px;
-    height: 460px;
+    height: 850px;
     border: none;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: #7da6d2;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+.navbar a{
+    color:cornsilk;
+    text-decoration: none;
+    padding: 15px;
+    display:block;
+    text-align: right;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar a:hover {
+    background-color: rgb(77, 116, 157);
+}
+
+.navbar-logo{
+    float: left;
+}
+.navbar-link{
+    float: right;
 }
