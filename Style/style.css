@@ -1,6 +1,7 @@
 .body-bg {
     background-color: cornsilk;
     margin: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .intro-table-container {
@@ -27,10 +28,16 @@
     margin: 0 auto;
 }
 
+.profile-img:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
 .main-table-container {
     width: 100%;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    justify-content: center, space-evenly;
+    
 }
 
 .main-table {
@@ -61,12 +68,12 @@
 
 .skills-table-container {
     width: 100%;
-    display: flex;
+    display: grid;
     justify-content: center;
 }
 
 .skills-table {
-    width: 66%;
+    width: 100%;
     border-spacing: 30px;
     color: cornsilk;
 }
@@ -130,14 +137,6 @@
     transition: transform 0.3s ease;
 }
 
-.footer-gitlab {
-    width: 60px;
-    height: 60px;
-    margin: 0 5px;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
 .footer-icon {
     width: 50px;
     height: 50px;
@@ -147,16 +146,20 @@
     justify-content: center;
 }
 
+.footer-icon:hover {
+    transform: scale(1.1);
+}
+
 .footer-form {
-    width: 640px;
-    height: 860px;
+    width: 650px;
+    height: 880px;
     border: none;
     margin-top: 10px;
 }
 
 .footer-resume {
     font-size: larger;
-    width: 20%;
+    width: 500px;
     text-align: center;
 }
 
@@ -194,4 +197,59 @@
 }
 .navbar-link{
     float: right;
+}
+
+.skills-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    margin: 45px;
+    gap: 50px;
+    justify-content:center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    margin: 45px;
+    gap: 10px;
+}
+.container > div {
+    background-color: rgb(125, 166, 210);
+    padding: 10px;            
+}
+.container h1 {
+    text-align: center;
+    font-size: 150%;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+    border-radius: 30px;
+    vertical-align: top;
+    background-color: rgb(119, 165, 215); 
+    color: cornsilk;
+    justify-content: center;
+    width: 400px;
+    border-width: 0cm;
+}
+.card h1 {
+    text-align: center;
+    font-size: 150%;
+}
+
+.card:hover {
+    box-shadow: 16px 16px 16px 16px rgba(0,0,0,0.5);
+}
+
+
+.contact-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    margin: 45px;
+    gap: 50px;
+    justify-content:center;
 }
