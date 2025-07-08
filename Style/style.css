@@ -269,18 +269,18 @@
 }
 
 .button {
-  background-color: rgb(54, 55, 56); 
-  border: none;
-  color: cornsilk;
-  padding: 8px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 14px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 2px;
-  align-self: center;
+    background-color: rgb(54, 55, 56); 
+    border: none;
+    color: cornsilk;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+    align-self: center;
 }
 
 .button-row {
@@ -291,6 +291,6 @@
 }
 
 .button:hover {
-  background-color: rgb(77, 116, 157); 
-  color: rgb(52, 52, 52);
+    background-color: rgb(77, 116, 157); 
+    color: rgb(52, 52, 52);
 }
